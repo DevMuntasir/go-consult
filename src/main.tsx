@@ -601,7 +601,7 @@ function App() {
           )}
           {screen === 'complete' && (
             <div className="complete-page">
-              <div className="complete-art">
+              {/* <div className="complete-art">
                 <span>
                   <Check size={44} />
                 </span>
@@ -611,11 +611,11 @@ function App() {
                 You're all
                 <br />
                 <em>taken care of.</em>
-              </h1>
-              <p className="muted">
+              </h1> */}
+              {/* <p className="muted">
                 Your demo consultation is complete. Here's a preview of your
                 visit summary.
-              </p>
+              </p> */}
               <div className="summary-card">
                 <div className="summary-doctor">
                   <img src={doctor.photo} />
