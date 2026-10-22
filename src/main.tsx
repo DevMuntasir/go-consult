@@ -167,9 +167,9 @@ function App() {
                 </div>
                 <section className="hero">
                   <div className="hero-copy">
-                    <span className="hero-chip">
+                    {/* <span className="hero-chip">
                       <span className="live-dot" /> CARE IS AVAILABLE
-                    </span>
+                    </span> */}
                     <h1>
                       Expert care,
                       <br />
@@ -177,7 +177,7 @@ function App() {
                       <br />
                       you are.
                     </h1>
-                    <p>Connect with a qualified doctor without leaving home.</p>
+                    {/* <p>Connect with a qualified doctor without leaving home.</p> */}
                   </div>
                   <img
                     className="hero-doctor"
@@ -187,15 +187,15 @@ function App() {
                   <div className="hero-glow" />
                 </section>
                 <section className="action-card">
-                  <div className="action-top">
+                  {/* <div className="action-top">
                     <span className="availability">
-                      <span className="live-dot" /> Doctors available now
+                      <span className="live-d" /> Doctors available now
                     </span>
                     <span className="fee-pill">
                       From {country.currency}
                       {country.fee}
                     </span>
-                  </div>
+                  </div> */}
                   <button
                     className="primary-button consult-button"
                     onClick={start}
@@ -203,15 +203,7 @@ function App() {
                     <Video size={20} fill="currentColor" strokeWidth={2} />{' '}
                     Consult a doctor now <ArrowRight size={20} />
                   </button>
-                  <div className="action-benefits">
-                    <span>
-                      <ShieldCheck size={15} /> Verified doctors
-                    </span>
-                    <i />
-                    <span>
-                      <LockKeyhole size={14} /> Private & secure
-                    </span>
-                  </div>
+                  
                 </section>
                 <div className="section-heading">
                   <h3>What do you need help with?</h3>
@@ -274,20 +266,12 @@ function App() {
                 </div>
                 {intakeStep === 0 ? (
                   <>
-                    <div className="form-visual">
-                      <span>
-                        <UserRound size={27} />
-                      </span>
-                    </div>
-                    <h1>
-                      First, a little
-                      <br />
-                      <em>about you.</em>
-                    </h1>
-                    <p className="muted">
+                   
+                
+                    {/* <p className="muted">
                       We’ll use these details to connect you with the right
                       doctor.
-                    </p>
+                    </p> */}
                     <label className="field-label">Your full name</label>
                     <input
                       className="text-field"
@@ -318,20 +302,20 @@ function App() {
                   </>
                 ) : (
                   <>
-                    <div className="form-visual purple">
+                    {/* <div className="form-visual purple">
                       <span>
                         <HeartPulse size={27} />
                       </span>
-                    </div>
-                    <h1>
+                    </div> */}
+                    {/* <h1>
                       Tell us what's
                       <br />
                       <em>going on.</em>
-                    </h1>
-                    <p className="muted">
+                    </h1> */}
+                    {/* <p className="muted">
                       A few details will help your doctor prepare for your
                       visit.
-                    </p>
+                    </p> */}
                     <label className="field-label">
                       What can we help with?
                     </label>
@@ -384,15 +368,15 @@ function App() {
             <>
               <SubHeader title="Review & confirm" back={() => go('intake')} />
               <div className="review-page">
-                <span className="eyebrow dark">YOU’RE ALMOST THERE</span>
-                <h1>
+                {/* <span className="eyebrow dark">YOU’RE ALMOST THERE</span> */}
+                {/* <h1>
                   Great! Let’s
                   <br />
                   <em>get you care.</em>
                 </h1>
                 <p className="muted">
                   Review your details before we find your doctor.
-                </p>
+                </p> */}
                 <div className="review-doctor">
                   <img src={doctor.photo} />
                   <div>
@@ -482,19 +466,19 @@ function App() {
                     <Check size={20} />
                   </div>
                 </div>
-                <div className="match-tag">
+                {/* <div className="match-tag">
                   <span className="live-dot" /> SEARCH IN PROGRESS
-                </div>
+                </div> */}
                 <h1>
                   {matchPhase < 2
                     ? 'Finding your perfect match…'
                     : 'Your doctor is ready!'}
                 </h1>
-                <p>
+                {/* <p>
                   {matchPhase < 2
                     ? 'We’re connecting you with a verified doctor in your country.'
                     : 'Getting your private consultation room ready.'}
-                </p>
+                </p> */}
                 <div className="match-dots">
                   <span />
                   <span />
@@ -565,7 +549,7 @@ function App() {
               </div>
               <div className="call-bottom">
                 <div className="call-doctor-info">
-                  <span>CONNECTED TO</span>
+                  {/* <span>CONNECTED TO</span> */}
                   <h2>{doctor.name}</h2>
                   <p>
                     {doctor.role} · {country.name}
@@ -690,11 +674,11 @@ function App() {
                     <span className="history-icon">
                       <Video size={20} />
                     </span>
-                    <div>
+                    {/* <div>
                       <strong>{doctor.name}</strong>
                       <small>Today · Demo consultation</small>
                       <span className="history-completed">● Completed</span>
-                    </div>
+                    </div> */}
                     <ChevronRight size={18} />
                   </div>
                 )}
