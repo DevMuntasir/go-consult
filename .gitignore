@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output and caches
+dist/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.aws/
+
+# Logs
+*.log
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

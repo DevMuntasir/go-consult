@@ -1,0 +1,143 @@
+{
+  "countries": [
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "flag": "🇧🇩",
+      "language": "বাংলা / English",
+      "currency": "৳",
+      "fee": 499,
+      "languages": ["English", "বাংলা"]
+    },
+    {
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "flag": "🇿🇼",
+      "language": "English",
+      "currency": "$",
+      "fee": 12,
+      "languages": ["English"]
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "flag": "🇰🇪",
+      "language": "English / Swahili",
+      "currency": "KSh",
+      "fee": 1500,
+      "languages": ["English", "Swahili"]
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "language": "English",
+      "currency": "£",
+      "fee": 25,
+      "languages": ["English"]
+    }
+  ],
+  "doctors": [
+    {
+      "id": "dr-001",
+      "name": "Dr. Sarah Ahmed",
+      "role": "General Physician",
+      "years": 9,
+      "rating": 4.9,
+      "patients": "2.4k+",
+      "languages": ["English", "বাংলা"],
+      "country": "BD",
+      "photo": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=500&h=600&fit=crop&crop=faces"
+    },
+    {
+      "id": "dr-002",
+      "name": "Dr. Emily Carter",
+      "role": "General Physician",
+      "years": 12,
+      "rating": 4.8,
+      "patients": "3.1k+",
+      "languages": ["English"],
+      "country": "GB",
+      "photo": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=600&fit=crop&crop=faces"
+    },
+    {
+      "id": "dr-003",
+      "name": "Dr. Tendai Moyo",
+      "role": "General Physician",
+      "years": 7,
+      "rating": 4.9,
+      "patients": "1.8k+",
+      "languages": ["English"],
+      "country": "ZW",
+      "photo": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&h=600&fit=crop&crop=faces"
+    },
+    {
+      "id": "dr-004",
+      "name": "Dr. Amina Otieno",
+      "role": "General Physician",
+      "years": 8,
+      "rating": 4.9,
+      "patients": "2.2k+",
+      "languages": ["English", "Swahili"],
+      "country": "KE",
+      "photo": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=500&h=600&fit=crop&crop=faces"
+    }
+  ],
+  "specialties": [
+    {
+      "id": "general",
+      "name": "General care",
+      "description": "Everyday health concerns",
+      "icon": "stethoscope"
+    },
+    {
+      "id": "cold",
+      "name": "Cold & flu",
+      "description": "Fever, cough and more",
+      "icon": "thermometer"
+    },
+    {
+      "id": "skin",
+      "name": "Skin care",
+      "description": "Rashes and skin issues",
+      "icon": "sparkles"
+    },
+    {
+      "id": "wellness",
+      "name": "Wellness",
+      "description": "Talk through symptoms",
+      "icon": "heart"
+    }
+  ],
+  "symptomSuggestions": [
+    "Fever or headache",
+    "Cough and cold",
+    "Stomach discomfort",
+    "Skin irritation"
+  ],
+  "patient": {
+    "name": "Alex Morgan",
+    "initials": "AM",
+    "age": "28",
+    "email": "alex@example.com",
+    "memberSince": "2026"
+  },
+  "pastConsultations": [
+    {
+      "id": "GC-1028",
+      "doctor": "Dr. Sarah Ahmed",
+      "date": "Oct 16, 2026",
+      "type": "General consultation",
+      "status": "Completed",
+      "prescription": true
+    },
+    {
+      "id": "GC-1014",
+      "doctor": "Dr. Sarah Ahmed",
+      "date": "Sep 28, 2026",
+      "type": "Follow-up",
+      "status": "Completed",
+      "prescription": true
+    }
+  ]
+}
